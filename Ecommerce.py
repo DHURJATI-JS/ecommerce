@@ -2,9 +2,10 @@ import itertools
 from operator import attrgetter
 import json
 import atexit
-filename="/home/yonder/Documents/code/projects/Ecommerce/data.json"
+filename="data.json"
 validobjects=["shop","template","customer"]
 autosave=True
+#made by Dhurjati
 autoload=True
 oldid=[]
 with open(filename,"r") as file:
