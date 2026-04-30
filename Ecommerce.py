@@ -5,7 +5,6 @@ import atexit
 filename="data.json"
 validobjects=["shop","template","customer"]
 autosave=True
-#made by Dhurjati
 autoload=True
 oldid=[]
 with open(filename,"r") as file:
